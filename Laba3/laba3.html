@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+            </style>
+        <title>Лабораторная №3</title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+<body>
+    <!-- Меню -->
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <ul class="pure-menu-list ">
+                <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Об авторе</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Проза</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">Лирика</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Заставка-->
+    <div class="splash-container">
+        <div class="splash">
+            <h1 class="splash-head">Эдгар Аллан По</h1>
+            <p class="splash-subhead">Американский писатель и поэт, представитель американского романтизма. 
+                Создатель формы современного детектива и жанра психологической прозы, некоторые работы Эдгара По способствовали формированию и развитию 
+                научной фантастики.</p>
+        </div>
+    </div>
+    <!--Наплыв-->
+    <div class="content-wrapper ">
+        <div class="content">
+            <h2 class="content-head is-center">Краткая информация</h2>
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">Эдгар По был одним из первых американских писателей, сделавших новеллу основной формой своего творчества. Он пытался зарабатывать исключительно литературной деятельностью, в результате чего его жизнь и карьера были сопряжены с тяжёлыми финансовыми трудностями.</div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">Несмотря на то, что при жизни Эдгар По был известен преимущественно как литературный критик, в дальнейшем его художественные произведения оказали значительное влияние на мировую литературу, а также космологию и криптографию.</div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">Эдгара По высоко оценивали Жюль Верн, Артур Конан Дойл, Говард Филлипс Лавкрафт, признавая за ним роль первопроходца в жанрах, которые они популяризовали.</div>
+            </div>
+        </div>
+    
+        <!--Другая часть-->
+        <div class="ribbon l-box-lrg pure-g">
+            
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4-5">
+                <h2 class="content-head content-head-ribbon">«У По гораздо больше общего с писателями и деятелями искусства XXI века, нежели с его современниками»<br>
+                    Пол Льюис, профессор Бостонского колледжа</h2>
+                <p>Однако По не был писателем, «оторванным» от своего времени — стремясь не только к популярности, но и к коммерческому успеху, он писал, учитывая вкусы публики. Время показало, что интерес к его персоне и произведениям, претерпевающим многочисленные адаптации, не угасает и спустя много лет.</p>
+            </div>
+            <div class="l-box-lrg is-center pure-u-md-1-2 pure-u-lg-1-4-5">
+                <div id="anime-demo">
+                    <svg height="350" width="350" preserveAspectRatio="none" alt="Cat Icon" ><!-- class="pure-img-responsive" -->
+                        <!-- уши -->
+                        <polygon points="105,130 135,50 160,130" fill="black"/>
+                        <polygon points="190,130 220,50 250,130" fill="black"/>
+                        <!--морда-->
+                        <ellipse rx="100" ry="70" fill="black" cx="50%" cy="50%"/>
+                        <!--глаза-->
+                        <circle r="30" fill="yellow" cx="215" cy="170"/>
+                        <ellipse rx="5" ry="20" fill="black" cx="215" cy="170" id="eye"/>
+                        <line x1="110" y1="140" x2="150" y2="200" stroke="red" stroke-width="5"/>
+                        <line x1="155" y1="140" x2="110" y2="200" stroke="red" stroke-width="5"/>
+                        <!--нос-->
+                        <polygon points="160,210 175,230 190,210" fill="pink" id="nose"/>
+                    </svg>
+                </div>  
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="animation3.js"></script>  
+                
+       
+</body>
+</html>
